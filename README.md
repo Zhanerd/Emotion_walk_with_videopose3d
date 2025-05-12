@@ -12,11 +12,11 @@ pytorch==2.1.0
 onnxruntime==1.18.0
 
 # model download
-U can find rtmpose and yolov8 onnx model in https://drive.google.com/drive/folders/1DfTw0aEpuEyXpo7XJXIvCzDTuZ-wNOy8?usp=drive_link .  (In the pose folder!)
+U can find rtmpose and yolov8 onnx model in https://drive.google.com/drive/folders/1DfTw0aEpuEyXpo7XJXIvCzDTuZ-wNOy8?usp=drive_link .  (In the pose folder! U can put it any where, but need to fill in the corresponding position when initializing class TopDownEstimation.)
 
-The 3d pose model can find in https://github.com/facebookresearch/VideoPose3D. (Pls use the ###coco### model!)
+The 3d pose model can find in https://github.com/facebookresearch/VideoPose3D. (Pls use the ###coco### model! And put it in videopose3d/checkpoint)
 
-The emotion model can find in https://github.com/PeterZs/take_an_emotion_walk.
+The emotion model can find in https://github.com/PeterZs/take_an_emotion_walk.  (And put it in emotion_walk/weights)
 
 
 
